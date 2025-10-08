@@ -1,0 +1,115 @@
+body {
+  color: white;
+  margin: 0;
+  background: linear-gradient(to bottom, #7226ff, #166078, #010030);
+  background-attachment: fixed;   /* ✅ keeps background from moving */
+  background-size: cover;         /* ✅ ensures it covers full screen */
+  background-repeat: no-repeat;   /* ✅ no repeat */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+  
+  text-align: center;
+letter-spacing: .35em;
+font-weight: 600;
+font-size: 10px;
+
+}
+
+.des{
+  padding-right: 20px;
+  padding-left: 25px;
+}
+
+h1{
+  padding: 25px;
+  
+}
+
+.headingbutp{
+  margin-top: 50px;
+  padding-left: 25px;
+  padding-right: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.para{
+  margin-top: 0;
+  padding-left: 25px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.municipality{
+  line-height: 1.6;
+  padding-left: 35px;
+  margin-bottom: 50px;
+}
+
+.municipality a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+
+
+
+
+.top-image {
+  position: relative;
+  width: 100%;
+  
+}
+
+.top-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+/* 🔹 Navigation Bar with Fade */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  z-index: 1000;
+
+  /* Gradient fade bottom */
+  background: linear-gradient(to bottom, #7226ff, rgba(0,0,0,0));
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #7226ff; /* hover color */
+}
+
+
+footer p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
